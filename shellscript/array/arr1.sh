@@ -7,5 +7,5 @@ FRUITS[3]="Grape"
 
 
 # 배열의 모든 원소 접근 index 위치에 * 또는 @
-echo "All Items: ${FRUITS[*]}"
-echo "All Items: ${FRUITS[@]}"
+echo "All Items: ${FRUITS[*]}" # All Items: Apple Banana Kiwi Grape
+echo "All Items: ${FRUITS[@]}" # All Items: Apple Banana Kiwi Grape
